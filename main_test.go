@@ -37,7 +37,7 @@ func TestMain(t *testing.T) {
 		fmt.Println(obj)
 	}
 	conn.Close()
-	mysql.Stop()
+	mysql.Stop(ctx)
 	main()
 }
 
